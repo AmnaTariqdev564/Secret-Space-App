@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDE2E4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <!-- Title Text -->
+        <TextView
+            android:id="@+id/registerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Your Account"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#8b113d"
+            android:layout_marginBottom="40dp"/>
+
+        <!-- Username Field -->
+        <EditText
+            android:id="@+id/usernameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Username"
+            android:textColor="#424242"
+            android:textColorHint="#D81B60"
+            android:padding="16dp"
+            android:background="#F8BBD0"
+            android:layout_gravity="center"/>
+
+        <!-- Password Field -->
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#424242"
+            android:textColorHint="#D81B60"
+            android:padding="16dp"
+            android:background="#F8BBD0"
+            android:layout_gravity="center"/>
+
+        <!-- Email Field -->
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:hint="Email"
+            android:textColor="#424242"
+            android:textColorHint="#D81B60"
+            android:padding="16dp"
+            android:background="#F8BBD0"
+            android:layout_gravity="center"/>
+
+        <!-- Signup Button -->
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#F48FB1"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Sign Up with Google -->
+        <Button
+            android:id="@+id/signInWithGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up with Google"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4285F4"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Sign Up with Facebook -->
+        <Button
+            android:id="@+id/signInWithFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up with Facebook"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#3B5998"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Enter as Guest Option -->
+        <TextView
+            android:id="@+id/guestText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textColor="#D81B60"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:textSize="16sp"
+            android:layout_gravity="center" />
+
+        <!-- Guest Button -->
+        <Button
+            android:id="@+id/guestButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter as Guest"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E57373"/>
+
+    </LinearLayout>
+</ScrollView>
