@@ -1,0 +1,13 @@
+<resources>
+    <color name="backgroundColor">#F7F9FB</color>
+    <color name="titleTextColor">#3E4E5E</color>
+    <color name="questionTextColor">#3E4E5E</color>
+    <color name="radioButtonColor">#007BFF</color>
+    <color name="radioButtonTextColor">#3E4E5E</color>
+    <color name="buttonDarkBackgroundColor">#1C1C1C</color>
+    <color name="buttonGreenBackgroundColor">#28A745</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+</resources>
+
+
+
