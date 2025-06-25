@@ -34,6 +34,8 @@ screenshots/
 ![image](https://github.com/AmnaTariqdev564/Secret-Space-App/blob/a9b89380985afa3f63958aa4872b265bbb7b0331/img.jpg)
 
 ---
+## For Full Presentation
+![Pdf](https://github.com/AmnaTariqdev564/Secret-Space-App/blob/4a582f8cd3a52c2179e991375638f73f5983df78/Presentation.pdf)
 
 ## 🚀 Getting Started
 
